@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_create_your_alarm"
+        android:text="Create your alarm:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edittext_input_time"
+        android:hint="Enter time you wanna wake up \n enter in 24h clock format \n eg.2359"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType= "numberDecimal"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text_disclaimer"
+        android:text="Disclaimer: your alarm will ring in the next 24 hours lol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button_set_alarm"
+        android:text="Set your alarm!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_delete_alarm"
+        android:text="Delete this alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
